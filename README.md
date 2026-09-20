@@ -233,3 +233,7 @@ Policy documents are provided by the user and processed locally. The system's po
 The application uses locally hosted models through Ollama. Response speed depends on the available system resources.
 
 Customer eligibility for refunds, returns, warranties, or replacements is not assumed when the available records or policy documents do not establish the required conditions.
+
+## Demo
+
+**Demo Video:** [Link](https://drive.google.com/file/d/1Mrq_tfZujqJ8muFJ2dmo3StA_ioBXH9D/view?usp=sharing)
