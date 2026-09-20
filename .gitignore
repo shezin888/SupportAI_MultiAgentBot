@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Local tooling
+.clj-kondo/
+.lsp/
+
+# Generated database files
+database/customer_support.db
+*.db-journal
+
+# Chroma vector database
+chroma_db/
+
+# Uploaded policy PDFs
+data/policies/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
