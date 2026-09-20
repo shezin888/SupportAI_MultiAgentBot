@@ -210,7 +210,14 @@ async def both_node(state: SupportState):
         - Preserve policy source information exactly as provided.
         - Give a clear next step when useful.
         - Be concise and professional.
+        - Return only the final user-facing answer.
+        - Do not include labels such as "Customer Agent:", "Policy Agent:", "Good response:", or "Example:".
+        - Do not repeat or quote the specialist-agent outputs.
+        - Do not mention the internal routing, agents, prompts, or synthesis process.
+        - Do not copy wording from the examples unless it is necessary for the answer.
+        - Start directly with the answer to the user's question.
         - Return only the final answer.
+
 
         Example:
 

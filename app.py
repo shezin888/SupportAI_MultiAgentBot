@@ -18,18 +18,17 @@ POLICY_DIR.mkdir(
 
 st.set_page_config(
     page_title="SupportAI",
-    page_icon="🤖",
     layout="wide"
 )
 
-st.title("🤖 SupportAI")
+st.title("SupportAI")
 st.caption(
     "Generative AI Multi-Agent Customer Support Assistant"
 )
 
 
 with st.sidebar:
-    st.header("📚 Knowledge Base")
+    st.header("Knowledge Base")
 
     st.write(
         "Upload company policy PDFs to add them "
@@ -75,7 +74,7 @@ with st.sidebar:
 
     if policy_files:
         for policy in policy_files:
-            st.write(f"✅ {policy.name}")
+            st.write(policy.name)
     else:
         st.caption(
             "No policy documents uploaded yet."
@@ -87,7 +86,7 @@ if "messages" not in st.session_state:
         {
             "role": "assistant",
             "content": (
-                "Hi John! 👋\n\n"
+                "Hi John!\n\n"
                 "I'm **SupportAI**. I can help you look up "
                 "customer information and answer questions "
                 "using company policy documents."
