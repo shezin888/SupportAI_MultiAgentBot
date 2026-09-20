@@ -114,7 +114,7 @@ SupportAI_MultiAgentBot/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/SupportAI-MultiAgentBot.git
+git clone https://github.com/shezin888/SupportAI_MultiAgentBot.git
 cd SupportAI-MultiAgentBot
 ```
 
